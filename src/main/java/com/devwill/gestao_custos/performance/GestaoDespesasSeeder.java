@@ -1,3 +1,4 @@
+/*
 package com.devwill.gestao_custos.performance;
 
 //Responsável pela simulação de muitas requisições
@@ -41,3 +42,4 @@ public class GestaoDespesasSeeder implements CommandLineRunner {
         System.out.println("Finalizou Geração de seed");
     }
 }
+*/
