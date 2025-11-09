@@ -61,9 +61,13 @@ A aplicação está disponível publicamente em:
 ```
 ## ⚡ Endpoints de Teste de Performance (/gestao/perfomance):
 OBSERVAÇÃO: Estes endpoints só serão úteis se houver dados persistidos no banco (via POST).
+
 Método -> Endpoint Completo -> Objetivo do Teste.
+
 GET -> /sem-paginacao -> Lentidão Intencional: Busca todos os registros de uma vez.
+
 GET -> /com-paginacao -> "Otimização: Busca dados em blocos menores (?page=0&size=10)."
+
 GET -> /cache/{email} -> Cache em Ação: A primeira busca é lenta; as subsequentes com os mesmos parâmetros são extremamente rápidas (retornam da memória).
 
 ## 💡 Próximos Passos (Desenvolvimento):
